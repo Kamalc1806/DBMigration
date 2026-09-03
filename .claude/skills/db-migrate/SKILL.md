@@ -22,8 +22,9 @@ This skill runs the `dbmigrate` plugin, which:
 
 ## How to run it
 
-The Python package lives at the repo root (`C:\Dev\DBMigration`, which contains
-the `dbmigrate/` package). Run the module from there:
+The Python package lives at `plugins/db-migration-analyzer/` (which contains the
+`dbmigrate/` package). Run the module from that directory, e.g.
+`PYTHONPATH="plugins/db-migration-analyzer" python -m dbmigrate ...`:
 
 ```bash
 # Offline DDL file
@@ -40,8 +41,8 @@ python -m dbmigrate \
   --output-dir "<output-folder>"
 ```
 
-If `python -m dbmigrate` is not found, run it from the repo root that contains
-the `dbmigrate/` package, or set `PYTHONPATH` to that directory.
+If `python -m dbmigrate` is not found, run it from `plugins/db-migration-analyzer/`
+(which contains the `dbmigrate/` package), or set `PYTHONPATH` to that directory.
 
 ## What to ask the user first
 
@@ -50,4 +51,5 @@ the `dbmigrate/` package, or set `PYTHONPATH` to that directory.
 - **Output directory**?
 
 Then run the command, and summarize the console output plus the paths to the
-generated scripts, Excel workbook, and reports. Full details: `README.md`.
+generated scripts, Excel workbook, and reports. Full details:
+`plugins/db-migration-analyzer/README.md`.

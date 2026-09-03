@@ -15,8 +15,8 @@ live_demo_output/
 migration_output/
 *_output/
 
-# Demo SQLite database built by run_live_demo.py
-samples/live_sample.db
+# Demo SQLite database built by run_live_demo.py (any location)
+**/live_sample.db
 
 # Claude Code local settings (machine-specific)
 .claude/settings.local.json
