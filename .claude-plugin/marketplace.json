@@ -1,15 +1,24 @@
 {
   "name": "dbmigration-tools",
   "owner": {
-    "name": "Kamal Chandravel",
+    "name": "Kamal Chandravel, Srinivasan Balu",
     "email": "kamal.chandravel@cognizant.com"
   },
+  "metadata": {
+    "description": "Maintained by Kamal Chandravel and Srinivasan Balu"
+  },
+
   "plugins": [
     {
       "name": "db-migration-analyzer",
       "source": "./plugins/db-migration-analyzer",
       "description": "Database migration analysis, target-script generation, Excel + effort reporting.",
-      "version": "1.0.0"
+      "version": "1.0.0",
+      "author": {
+        "name": "Srinivasan Balu, Kamal Chandravel",
+        "email": "Srinivasan.Balu@cognizant.com"
+      }
+
     }
   ]
 }
