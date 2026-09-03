@@ -7,8 +7,9 @@
   "plugins": [
     {
       "name": "db-migration-analyzer",
-      "source": ".",
-      "description": "Database migration analysis, target-script generation, Excel + effort reporting."
+      "source": "./plugins/db-migration-analyzer",
+      "description": "Database migration analysis, target-script generation, Excel + effort reporting.",
+      "version": "1.0.0"
     }
   ]
 }
