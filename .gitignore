@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Generated migration artifacts (produced by the demos / CLI)
+demo_output/
+live_demo_output/
+migration_output/
+*_output/
+
+# Demo SQLite database built by run_live_demo.py
+samples/live_sample.db
+
+# Claude Code local settings (machine-specific)
+.claude/settings.local.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

@@ -1,0 +1,12 @@
+# Core plugin has ZERO required dependencies (stdlib-only fallbacks included).
+#
+# Optional extras:
+openpyxl>=3.1        # richer, formatted Excel output (native fallback used if absent)
+
+# Live-database introspection (only needed for --source-url):
+# SQLAlchemy>=2.0
+# plus a driver for your source engine, e.g.:
+#   oracledb        # Oracle
+#   psycopg[binary] # PostgreSQL
+#   pymysql         # MySQL / MariaDB
+#   pyodbc          # SQL Server

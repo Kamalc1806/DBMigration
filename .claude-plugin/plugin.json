@@ -1,0 +1,10 @@
+{
+  "name": "db-migration-analyzer",
+  "description": "Analyze a source database, map objects/datatypes to a target engine with compatibility scores, generate target scripts, an Excel workbook, and migration/effort reports.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Kamal Chandravel",
+    "email": "kamal.chandravel@cognizant.com"
+  },
+  "keywords": ["database", "migration", "oracle", "postgresql", "mysql", "sqlserver", "schema"]
+}

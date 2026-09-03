@@ -1,0 +1,14 @@
+{
+  "name": "dbmigration-tools",
+  "owner": {
+    "name": "Kamal Chandravel",
+    "email": "kamal.chandravel@cognizant.com"
+  },
+  "plugins": [
+    {
+      "name": "db-migration-analyzer",
+      "source": ".",
+      "description": "Database migration analysis, target-script generation, Excel + effort reporting."
+    }
+  ]
+}
